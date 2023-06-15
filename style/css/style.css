@@ -1,0 +1,357 @@
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* MISC */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #203B3C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #203B3C;
+}
+
+body {
+    background-color: #F5F7FC;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* MISC */
+
+/* Auth Pages */
+.login-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background: #F5F7FC;
+    width: 100%;
+    max-width: 500px;
+    min-height: 500px;
+    padding: 40px 70px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login-form img {
+    padding-bottom: 30px;
+}
+
+.login-form .login-helper {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.login-form a {
+    color: black;
+    text-decoration: none;
+}
+
+.login-form button {
+    border-radius: 34px;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-dialog-box {
+    margin-top: 5vh;
+}
+
+/* Auth Pages */
+
+.hours-cell {
+    min-width: 85px;
+    text-align: center;
+    width: 85px !important;
+}
+
+.hiring-nav-container {
+    background-color: #203B3C;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hiring-nav-logo-wrapper {
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+/*MUI overrides*/
+
+.MuiDataGrid-columnHeaderTitleContainerContent>.MuiDataGrid-columnHeaderTitle {
+    font-weight: 600;
+}
+
+.MuiListItemButton-root.Mui-selected {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-right: 5px solid #8AA080;
+}
+
+.MuiPopover-paper ul {
+    max-height: 300px !important;
+    text-align: 'left';
+    text-transform: 'capitalize'
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-main .MuiDataGrid-cell:focus {
+    outline: 0px !important;
+}
+
+.clickable-rows .MuiDataGrid-row:hover,
+.MuiDataGrid-row.Mui-hovered {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.progressnav-label>.MuiStepLabel-vertical>.MuiStepLabel-labelContainer>span {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ffffff7d;
+}
+
+.progressnav-label svg {
+    color: transparent;
+    border: 1px solid #ffffff7d;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.progressnav-label>.MuiStepLabel-vertical>.MuiStepLabel-labelContainer>.Mui-active,
+.Mui-completed {
+    color: white !important;
+    font-weight: bolder;
+}
+
+.progressnav-label>.MuiStepLabel-vertical {
+    padding: 0;
+}
+
+.progressnav-label+.MuiStepConnector-vertical {
+    margin-left: 15px;
+}
+
+.progressnav-label+.MuiStepConnector-vertical>.MuiStepConnector-lineVertical {
+    min-height: 60px;
+}
+
+.progressnav-label svg.Mui-active {
+    border-color: white;
+}
+
+.mui-style-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 0;
+}
+
+.mui-style-qzbt6i-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator {
+    margin-right: 0;
+}
+
+.search-area .MuiFormControl-root {
+    margin-top: 0px;
+}
+
+.search-area .filter-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px auto;
+}
+
+.search-area .MuiInputBase-input::placeholder {
+    color: #333;
+}
+
+.icon-btn {
+    text-transform: lowercase;
+}
+
+.icon-btn span::first-letter {
+    text-transform: capitalize;
+}
+
+.clickable-rows {
+    border: none;
+}
+
+.custom-inputs {
+    padding-top: 24px;
+}
+
+.custom-inputs .MuiInputBase-root {
+    border-radius: 45px;
+}
+
+.custom-inputs .MuiGrid-root {
+    padding-top: 0 !important;
+}
+
+.custom-inputs .MuiInputBase-root input {
+    font-weight: 500;
+    padding: 9px;
+    padding-left: 20px;
+}
+
+.custom-inputs #mui-component-select-Type {
+    padding: 9px !important;
+}
+
+.custom-inputs .MuiInputLabel-shrink {
+    top: 0px !important;
+}
+
+.custom-inputs label#demo-simple-select-label {
+    top: -6px;
+    background-color: white;
+}
+
+.custom-inputs .MuiInputLabel-root {
+    top: -5px;
+}
+
+.custom-inputs .MuiInputLabel-outlined {
+    background-color: white;
+}
+.paymentmethod-input-label {
+    background-color: white;
+}
+
+.custom-inputs .MuiGrid-item {
+    padding-left: 25px;
+}
+
+.custom-inputs .MuiSelect-select {
+    padding: 9.5px 14px !important;
+}
+
+.custom-inputs label#filled-search-label {
+    top: -6px;
+}
+
+.MuiDataGrid-columnSeparator {
+    display: none !important;
+}
+
+.custom-bodyHead .MuiTypography-root {
+    font-size: 34px !important;
+}
+
+
+/*tables*/
+.clickable-rows .MuiLink-root {
+    color: #3F51B5 !important;
+}
+
+.clickable-rows .MuiDataGrid-columnHeader {
+    padding: 0 16px !important;
+}
+
+
+.spacer-input .MuiGrid-item {
+    padding-bottom: 16px;
+}
+
+.icon-btn .MuiSvgIcon-root {
+    margin-right: 11px;
+}
+
+.custom-responsive {
+    width: 50%;
+}
+
+
+/*MUI overrides*/
+
+@media screen and (max-width:1400px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:990px) {}
+
+@media screen and (min-width:990px) {}
+
+@media screen and (max-width:899px) {
+    .custom-responsive {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .custom-bodyHead {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:640px) {}
+
+@media screen and (max-width:599px) {
+    .custom-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .login-form {
+        padding: 40px 30px;
+    }
+
+    .mui-style-leyr8d-MuiStepper-root {
+        flex-wrap: wrap;
+    }
+
+    .mui-style-f9nwhn-MuiSvgIcon-root-MuiStepIcon-root {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mui-style-5dgeka-MuiStepLabel-label {
+        font-size: medium;
+    }
+
+    .mui-style-j5w0w9-MuiStepConnector-root {
+        display: none !important;
+    }
+
+    .mui-style-1bw0nnu-MuiStep-root {
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .mui-style-f9nwhn-MuiSvgIcon-root-MuiStepIcon-root {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mui-style-5dgeka-MuiStepLabel-label {
+        font-size: 13px;
+    }
+
+    .mui-style-66924r {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
